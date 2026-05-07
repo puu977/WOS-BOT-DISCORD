@@ -2,7 +2,7 @@ name: WOS-Pusat-Komando-Abadi
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # Jalan setiap 30 menit (UTC)
+    - cron: '*/02 * * * *'  # Jalan setiap 02 menit (UTC)
   workflow_dispatch:
 
 jobs:
